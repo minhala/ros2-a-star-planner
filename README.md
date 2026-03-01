@@ -9,7 +9,9 @@ The planner:
 - Computes a grid-based A* path
 - Publishes `nav_msgs/Path` for visualization
 
----
+## TF Tree
+
+![TF Tree](TFTree.png)
 
 ## Architecture
 
