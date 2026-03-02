@@ -172,7 +172,7 @@ class PlannerNode(Node):
 
         while open_heap:
             _, current = heapq.heappop(open_heap)
-            if current is closed:
+            if current in closed:
                 continue
             closed.add(current)
 
